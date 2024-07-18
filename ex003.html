@@ -20,17 +20,11 @@
        <h1>Olá,mundo!</h1> <!--Isso é um comentário - parte HTML-->
        <p>Já me livrei da maldição!!!</p> 
        <script>
-       var n1 = Number.parseInt (window.prompt ('Digite um número: ')) //recebe um valor string
-       var n2 = Number.parseInt(window.prompt ('Digite um numero: ')) //  recebe um valor para string
-       var s = n1 + n2 //você deve fazer uma conversão de numeros de um tipo para o outro
-       window.alert('A soma dos números é: ' + s) //Concatenação
-       
-       
-       // + (number +  number) para adição
-       // +  (string + string) para concatenação
-       // Number.parseInt(n1) //converte para inteiro
-       // Number.parseFloat(n2) // converte para flutuante (double)
-       </script>
+         var n1 = Number(window.prompt('Digite um numero: '))
+         var n2 = Number(window.prompt('Digite um numero: '))
+         var soma = n1 + n2
+         window.alert('A soma dos valores é: ' + String(soma))
+         </script>
 
 </body>
 </html>
