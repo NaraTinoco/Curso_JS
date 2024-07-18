@@ -10,19 +10,29 @@
 </body>
     <script>
 
-        var a = 5+3
+        var a = 5+3 // Ordem de precedencia (),**,*,/,%,+,-
         var b = a%5
         var c = 5*b**2
         var d = 10 - a/2
         var e = 6*2/d
         var f = b%e+4/e
 
+        var n = 3 //auto-atribuição
+        n = n + 4
+        n = n - 5
+        n = n * 4
+        n = n/2
+        n = n**2
+        n = n%5
+
         document.write( `A soma entre ${a} <br>` )
         document.write(`A variavel a é ${b}<br>`)
         document.write (`A variavel b é ${c}<br>`)
         document.write(`A variavel c é ${d}<br>`)
         document.write(`A variavel d é ${e}<br>`)
-        document.write(`A variavel e é ${f}`)
+        document.write(`A variavel e é ${f} <br><br>`)
+
+        document.write(`A variavel n é igual à ${n}`)
         
     </script>
 </html>
